@@ -39,7 +39,7 @@
     #### There is many cases, and all cases will implement "getMessage3" before "getMessage2" and "getMessage1" before MainController, and 3 of those cases are: 
     | Output               | Comment
     | :---------------- | :------
-    |hey from message1 <br>hey from message3<br> hey from message2 <br> hey from main controller| Implement "getMessage1" then "getMessage3" then "mainController".
+    |hey from message1 <br>hey from message3<br> hey from message2 <br> hey from main controller| Implement "getMessage1" then "getMessage2" then "mainController".
     |hey from message3 <br>hey from message2<br> hey from message1 <br> hey from main controller| Implement "getMessage2" then "mainController"
     |hey from message1 <br>hey from main controller<br> hey from message3 <br> hey from message2| Implement "mainController" then "getMessage2"
 
@@ -49,7 +49,7 @@
  <br><br><br>
 
 - # Output of quistion 5
-    #### There is many cases, and all cases will implement "getMessage3" before "getMessage2" & "MainController",and 3 of those cases are:
+    #### There is many cases, and all cases will implement "getMessage3" before "getMessage2" & "MainController",and 2 of those cases are:
     | Output               | Comment
     | :---------------- | :------
     |hey from message3 <br>hey from message2<br> hey from main controlle <br> hey from message1| Implement "mainController" then "getMessage1".
